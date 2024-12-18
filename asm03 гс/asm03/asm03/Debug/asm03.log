@@ -1,0 +1,23 @@
+﻿Сборка начата 13.12.2024 9:30:42.
+Уровень детализации журнала: Normal.     1>Проект "D:\уник\3 сем\КПО\asm03\asm03\asm03\asm03.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Обращение к "Debug\asm03.tlog\unsuccessfulbuild".
+       _MASM:
+         Assembling asm03.asm...
+         cmd.exe /C "C:\Users\Lenovo\AppData\Local\Temp\tmp8fa83bccc5c64b2883e26ae170f06837.cmd"
+         ml.exe /c /nologo /Zi /Fo"Debug\asm03.obj" /W3 /errorReport:prompt  /Taasm03.asm
+     1>asm03.asm(1): error A2044: invalid character in file
+     1>C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\BuildCustomizations\masm.targets(70,5): error MSB3721: выход из команды "ml.exe /c /nologo /Zi /Fo"Debug\asm03.obj" /W3 /errorReport:prompt  /Taasm03.asm" с кодом "1".
+     1>Сборка проекта "D:\уник\3 сем\КПО\asm03\asm03\asm03\asm03.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "D:\уник\3 сем\КПО\asm03\asm03\asm03\asm03.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект _MASM) -> 
+         asm03.asm(1): error A2044: invalid character in file
+         C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\BuildCustomizations\masm.targets(70,5): error MSB3721: выход из команды "ml.exe /c /nologo /Zi /Fo"Debug\asm03.obj" /W3 /errorReport:prompt  /Taasm03.asm" с кодом "1".
+
+    Предупреждений: 0
+    Ошибок: 2
+
+Прошло времени 00:00:00.26
