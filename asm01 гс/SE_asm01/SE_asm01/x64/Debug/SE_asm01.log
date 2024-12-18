@@ -1,0 +1,33 @@
+﻿Сборка начата 24.11.2024 19:52:41.
+Уровень детализации журнала: Normal.     1>Проект "D:\уник\3 сем\КПО\lab19\SE_asm01\SE_asm01\SE_asm01.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Обращение к "x64\Debug\SE_asm01.tlog\unsuccessfulbuild".
+       _MASM:
+         Assembling SE_asm01.asm...
+         cmd.exe /C "C:\Users\Lenovo\AppData\Local\Temp\tmp03aeeaafccb3463eb160e7f355a93ee7.cmd"
+         ml64.exe /c /nologo /Zi /Fo"x64\Debug\SE_asm01.obj" /W3 /errorReport:prompt  /TaSE_asm01.asm
+     1>SE_asm01.asm(1): error A2008: syntax error : .
+     1>SE_asm01.asm(2): error A2008: syntax error : .
+     1>SE_asm01.asm(14): error A2070: invalid instruction operands
+     1>SE_asm01.asm(15): error A2070: invalid instruction operands
+     1>SE_asm01.asm(23): error A2008: syntax error : main
+     1>SE_asm01.asm(23): error A2088: END directive required at end of file
+     1>C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\BuildCustomizations\masm.targets(70,5): error MSB3721: выход из команды "ml64.exe /c /nologo /Zi /Fo"x64\Debug\SE_asm01.obj" /W3 /errorReport:prompt  /TaSE_asm01.asm" с кодом "1".
+     1>Сборка проекта "D:\уник\3 сем\КПО\lab19\SE_asm01\SE_asm01\SE_asm01.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "D:\уник\3 сем\КПО\lab19\SE_asm01\SE_asm01\SE_asm01.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект _MASM) -> 
+         SE_asm01.asm(1): error A2008: syntax error : .
+         SE_asm01.asm(2): error A2008: syntax error : .
+         SE_asm01.asm(14): error A2070: invalid instruction operands
+         SE_asm01.asm(15): error A2070: invalid instruction operands
+         SE_asm01.asm(23): error A2008: syntax error : main
+         SE_asm01.asm(23): error A2088: END directive required at end of file
+         C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\BuildCustomizations\masm.targets(70,5): error MSB3721: выход из команды "ml64.exe /c /nologo /Zi /Fo"x64\Debug\SE_asm01.obj" /W3 /errorReport:prompt  /TaSE_asm01.asm" с кодом "1".
+
+    Предупреждений: 0
+    Ошибок: 7
+
+Прошло времени 00:00:00.19

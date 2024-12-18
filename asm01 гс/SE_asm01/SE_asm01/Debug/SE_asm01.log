@@ -1,0 +1,22 @@
+﻿Сборка начата 11.12.2024 20:19:04.
+Уровень детализации журнала: Normal.     1>Проект "D:\уник\3 сем\КПО\asm01 гс\SE_asm01\SE_asm01\SE_asm01.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "Debug\SE_asm01.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "Debug\SE_asm01.tlog\unsuccessfulbuild".
+       _MASM:
+         Assembling SE_asm01.asm...
+         cmd.exe /C "C:\Users\Lenovo\AppData\Local\Temp\tmp34b55598930548879896ac9c4e354b06.cmd"
+         ml.exe /c /nologo /Zi /Fo"Debug\SE_asm01.obj" /Fl"Debug\\" /W3 /errorReport:prompt  /TaSE_asm01.asm
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.38.32919\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"D:\уник\3 сем\КПО\asm01 гс\SE_asm01\Debug\SE_asm01.exe" /INCREMENTAL /ILK:"Debug\SE_asm01.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\уник\3 сем\КПО\asm01 гс\SE_asm01\Debug\SE_asm01.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\уник\3 сем\КПО\asm01 гс\SE_asm01\Debug\SE_asm01.lib" /MACHINE:X86 Debug\SE_asm01.obj
+         SE_asm01.vcxproj -> D:\уник\3 сем\КПО\asm01 гс\SE_asm01\Debug\SE_asm01.exe
+       FinalizeBuildStatus:
+         Файл "Debug\SE_asm01.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\SE_asm01.tlog\SE_asm01.lastbuildstate".
+     1>Сборка проекта "D:\уник\3 сем\КПО\asm01 гс\SE_asm01\SE_asm01\SE_asm01.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:00.87
